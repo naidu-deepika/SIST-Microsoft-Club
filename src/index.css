@@ -1,0 +1,185 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* LOADING SCREEN */
+
+.loading-container{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+background:#f3f4f6;
+}
+
+/* spinner */
+
+.spinner{
+width:90px;
+height:90px;
+border:10px solid #dbeafe;
+border-top:10px solid #1d4ed8;
+border-right:10px solid #3b82f6;
+border-radius:50%;
+animation:spin 1.2s linear infinite;
+}
+
+@keyframes spin{
+0%{transform:rotate(0deg);}
+100%{transform:rotate(360deg);}
+}
+
+/* loading text */
+
+.loading-text{
+letter-spacing:4px;
+margin-bottom:15px;
+font-weight:600;
+color: #1d4ed8;
+}
+
+/* loading bar */
+
+.loading-bar{
+width:200px;
+height:8px;
+background:#ddd;
+overflow:hidden;
+border-radius:5px;
+}
+
+.loading-progress{
+width:0%;
+height:100%;
+background:#2563eb;
+animation:load 3s linear forwards;
+}
+
+@keyframes load{
+0%{width:0%;}
+100%{width:100%;}
+}
+/* splash background */
+
+.splash-bg{
+background: linear-gradient(
+135deg,
+#00b4d8,
+#0077b6,
+#023e8a
+);
+}
+
+/* floating circles */
+
+.circle{
+position:absolute;
+border-radius:50%;
+filter:blur(20px);
+opacity:0.5;
+}
+
+.circle1{
+width:300px;
+height:300px;
+background:#60a5fa;
+top:10%;
+left:15%;
+}
+
+.circle2{
+width:250px;
+height:250px;
+background:#00a896;
+bottom:15%;
+right:20%;
+}
+
+.circle3{
+width:200px;
+height:200px;
+background:#93c5fd;
+top:20%;
+right:10%;
+}
+
+/* logo glow */
+
+.logo-glow{
+box-shadow:
+0 0 10px #3b82f6,
+0 0 20px #3b82f6,
+0 0 40px #3b82f6;
+}
+/* splash animation */
+
+.splash-content{
+transform:scale(0.5);
+opacity:0;
+transition:all 0.8s ease;
+}
+
+.splash-content.show{
+transform:scale(1);
+opacity:1;
+}
+
+/* logo glow */
+
+.logo-glow{
+box-shadow:
+0 0 10px #3b82f6,
+0 0 20px #3b82f6,
+0 0 40px #3b82f6;
+animation:logoGlow 2s ease-in-out infinite alternate;
+}
+
+@keyframes logoGlow{
+
+from{
+box-shadow:
+0 0 10px #3b82f6,
+0 0 20px #3b82f6;
+}
+
+to{
+box-shadow:
+0 0 20px #3b82f6,
+0 0 40px #3b82f6,
+0 0 60px #3b82f6;
+}
+
+}
+
+/* glowing text */
+
+.title-glow{
+color:white;
+text-shadow:
+0 0 5px #fff,
+0 0 10px #3b82f6,
+0 0 20px #3b82f6,
+0 0 40px #3b82f6;
+
+animation:textGlow 2s infinite alternate;
+}
+
+@keyframes textGlow{
+
+from{
+text-shadow:
+0 0 5px #fff,
+0 0 10px #3b82f6,
+0 0 20px #3b82f6;
+}
+
+to{
+text-shadow:
+0 0 10px #fff,
+0 0 20px #3b82f6,
+0 0 40px #2563eb,
+0 0 60px #1d4ed8;
+}
+
+}
