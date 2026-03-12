@@ -1,1 +1,71 @@
-/*no styles needed*/
+.splash {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg,#020617,#0f172a,#020617);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.splash-content{
+  text-align:center;
+  z-index:2;
+}
+
+/* round logo */
+
+.logo{
+  width:120px;
+  height:120px;
+  border-radius:50%;
+  object-fit:cover;
+  margin-bottom:20px;
+  box-shadow:0 0 30px rgba(0,120,255,0.6);
+}
+
+/* jumping animation */
+
+.title{
+  font-size:48px;
+  font-weight:bold;
+  color:white;
+  transform:translateY(-40px);
+  opacity:0;
+  transition:all 1s ease;
+}
+
+.title.show{
+  transform:translateY(0);
+  opacity:1;
+}
+
+/* text */
+
+.enter-text{
+  margin-top:10px;
+  color:#94a3b8;
+}
+
+/* animated background dots */
+
+.background-dots{
+  position:absolute;
+  width:100%;
+  height:100%;
+  background-image: radial-gradient(#3b82f6 1px, transparent 1px);
+  background-size:30px 30px;
+  animation:moveDots 20s linear infinite;
+  opacity:0.3;
+}
+
+@keyframes moveDots{
+  from{
+    transform:translateY(0);
+  }
+  to{
+    transform:translateY(-200px);
+  }
+}

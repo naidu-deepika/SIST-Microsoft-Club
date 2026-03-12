@@ -1,25 +1,17 @@
-function LoadingScreen(){
+function LoadingScreen() {
+  return (
+    <div className="loading-container">
 
-return(
+      <div className="spinner"></div>
 
-<div className="loading-container">
+      <h2 className="loading-text">LOADING...</h2>
 
-<div className="spinner"></div>
+      <div className="loading-bar">
+        <div className="loading-progress"></div>
+      </div>
 
-<h2 className="loading-text">
-LOADING...
-</h2>
-
-<div className="loading-bar">
-
-<div className="loading-progress"></div>
-
-</div>
-
-</div>
-
-)
-
+    </div>
+  );
 }
 
-export default LoadingScreen
+export default LoadingScreen;

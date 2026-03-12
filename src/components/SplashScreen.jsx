@@ -1,44 +1,37 @@
 import { useEffect, useState } from "react";
 
-function SplashScreen(){
+function SplashScreen() {
 
-const [show,setShow] = useState(false)
+  const [show, setShow] = useState(false);
 
-useEffect(()=>{
-setTimeout(()=>{
-setShow(true)
-},200)
-},[])
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShow(true);
+    }, 200);
 
-return(
+    return () => clearTimeout(timer);
+  }, []);
 
-<div className="h-screen w-full flex items-center justify-center relative overflow-hidden splash-bg">
+  return (
+    <div className="splash-container">
 
-{/* circles */}
+      {/* floating circles */}
+      <div className="circle circle1"></div>
+      <div className="circle circle2"></div>
+      <div className="circle circle3"></div>
 
-<div className="circle circle1"></div>
-<div className="circle circle2"></div>
-<div className="circle circle3"></div>
+      <div className={show ? "splash-content show" : "splash-content"}>
 
-{/* content */}
+        <img src="/logo.png" className="logo" alt="Microsoft Club Logo" />
 
-<div className={show ? "splash-content show flex flex-col items-center" : "splash-content flex flex-col items-center"}>
+        <h1 className="title">
+          Microsoft Club
+        </h1>
 
-<img
-src="/logo.png"
-className="w-[130px] h-[130px] rounded-full object-cover mb-5 logo-glow"
-/>
+      </div>
 
-<h1 className="text-5xl font-bold tracking-wider title-glow">
-Microsoft Club
-</h1>
-
-</div>
-
-</div>
-
-)
-
+    </div>
+  );
 }
 
-export default SplashScreen
+export default SplashScreen;

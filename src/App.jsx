@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import LoadingScreen from "./components/LoadingScreen";
 import SplashScreen from "./components/SplashScreen";
 import Home from "./components/Home";
-
 function App() {
 
   const [stage,setStage] = useState("loading");
@@ -27,7 +26,5 @@ function App() {
   if(stage==="splash") return <SplashScreen/>
 
   return <Home/>
-
 }
-
 export default App;
