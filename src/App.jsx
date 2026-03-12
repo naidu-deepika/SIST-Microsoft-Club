@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import LoadingScreen from "./components/LoadingScreen";
 import SplashScreen from "./components/SplashScreen";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 import Home from "./components/Home";
 import About from "./components/About";
@@ -45,6 +46,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer/>
     </>
   );
 }
