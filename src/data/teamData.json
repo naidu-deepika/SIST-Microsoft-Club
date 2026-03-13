@@ -1,0 +1,696 @@
+{
+  "officeBearers": [
+    {
+      "id": 1,
+      "name": "Adil Bin Haris Khan",
+      "role": "President",
+      "department": "Office Bearers",
+      "branch": "BE CSE AI ",
+      "year": "3rd Year",
+      "registerNo": "43737107",
+      "image": "/team/office-bearers/adil.jpg",
+      "linkedin": "https://www.linkedin.com/in/adilbhk/",
+      "bio": "President of the Microsoft Club responsible for leading initiatives, organizing events, and guiding all technical domains."
+    },
+    {
+      "id": 2,
+      "name": "Reshma G.V.S",
+      "role": "Vice President",
+      "department": "Office Bearers",
+      "branch": "BE CSE AIML",
+      "year": "3rd Year",
+      "registerNo": "43611113",
+      "image": "/team/office-bearers/reshma.jpeg",
+      "linkedin": "https://in.linkedin.com/in/reshma-g-v-s-740906295",
+      "bio": "Vice President supporting the president and managing internal coordination of the club activities."
+    },
+    {
+      "id": 3,
+      "name": "Vedas Kudalkar",
+      "role": "Cluster Coordinator",
+      "department" : "Office Bearers",
+      "branch": "BE CSE ",
+      "year": "3rd Year",
+      "registerNo": 43110986,
+      "image": "/team/office-bearers/vedas.jpg",
+      "linkedin": "https://www.linkedin.com/in/vedas-k/",
+      "bio": "Cluster Coordinator responsible for connecting and coordinating different technical teams."
+    }
+  ],
+
+  "aiMLTeam": [
+    {
+      "id": 101,
+      "name": "Loganandamuthu M",
+      "role": "Lead of AI&ML",
+      "department" : "AI & ML",
+      "branch": "BE CSE",
+      "year": "3rd Year",
+      "registerNo": "43110496",
+      "linkedin": "https://www.linkedin.com/in/loganandamuthu-m/",
+      "image": "/team/club-members/ai-ml/loganandamuthu.png",
+      "bio": "Leading the AI & Machine Learning team, guiding members in building innovative AI solutions, organizing technical activities, and encouraging collaborative learning within the Microsoft Club."
+    },
+
+    {
+      "id": 102,
+      "name": "Mekhala",
+      "role": "Co-Lead of AI&ML",
+      "department" : "AI & ML",
+      "branch": "BE CSE AI-ML",
+      "year": "2nd Year",
+      "registerNo": "44611099",
+      "linkedin": "https://www.linkedin.com/in/mekhalakalimuthu",
+      "image": "/team/club-members/ai-ml/mekhala.jpg",
+      "bio": "Supporting the AI & Machine Learning team in developing intelligent solutions, coordinating with members, and assisting in organizing technical events and projects within the Microsoft Club."
+    },
+
+    {
+      "id": 103,
+      "name": "Meda Venkata Sai Charan",
+      "role": "Member of AI&ML",
+      "department" : "AI & ML",
+      "branch": "BE CSE",
+      "year": "1st Year",
+      "registerNo": "145110530",
+      "linkedin": "https://www.linkedin.com/in/sai-charan-9b8143282/",
+      "image": "/team/club-members/ai-ml/saicharan.jpg",
+      "bio": "Active member of the AI & Machine Learning team contributing to projects, participating in technical learning activities, and collaborating with the team to explore and build intelligent solutions."
+    },
+
+    {
+      "id": 104,
+      "name": "S.Praveen Kumar",
+      "role": "Member of AI&ML",
+      "department" : "AI & ML",
+      "branch": "BE CSE",
+      "year": "2nd Year",
+      "registerNo": "44111131",
+      "linkedin": "https://www.linkedin.com/in/praveenkumar2212",
+      "image": "/team/club-members/ai-ml/praveenkumar.jpg",
+      "bio": "Active member of the AI & Machine Learning team contributing to projects, participating in technical learning activities, and collaborating with the team to explore and build intelligent solutions."
+    },
+
+    {
+      "id": 105,
+      "name": "Mano Kumar S",
+      "role": "Member of AI&ML",
+      "department" : "AI & ML",
+      "branch": "BE CSE",
+      "year": "1st Year",
+      "registerNo": "145110526",
+      "linkedin": "https://www.linkedin.com/in/mano-kumar-s/",
+      "image": "/team/club-members/ai-ml/manokumar.jpg",
+      "bio": "Active member of the AI & Machine Learning team contributing to projects, participating in technical learning activities, and collaborating with the team to explore and build intelligent solutions."
+    },
+
+    {
+      "id": 106,
+      "name": "Swajith S S",
+      "role": "Member of AI&ML",
+      "department" : "AI & ML",
+      "branch": "BE CSE AI-ML",
+      "year": "1st Year",
+      "registerNo": "145611232",
+      "linkedin": "https://www.linkedin.com/in/swajith-senthil-kumar-74456b36a/",
+      "image": "/team/club-members/ai-ml/swajith.jpg",
+      "bio": "Active member of the AI & Machine Learning team contributing to projects, participating in technical learning activities, and collaborating with the team to explore and build intelligent solutions."
+    },
+
+    {
+      "id": 107,
+      "name": "Joshua Ragiland M",
+      "role": "Member of AI&ML",
+      "department" : "AI & ML",
+      "branch": "BE CSE AIML",
+      "year": "2nd Year",
+      "registerNo": "44611237",
+      "linkedin": "https://www.linkedin.com/in/joshua-ragiland-715762319",
+      "image": "/team/club-members/ai-ml/joshua.jpg",
+      "bio": "Active member of the AI & Machine Learning team contributing to projects, participating in technical learning activities, and collaborating with the team to explore and build intelligent solutions."
+    },
+
+    {
+      "id": 108,
+      "name": "Mohamed Riyaz M",
+      "role": "Member of AI&ML",
+      "department" : "AI & ML",
+      "branch": "BE CSE AI",
+      "year": "2nd Year",
+      "registerNo": "44731128",
+      "linkedin": "https://www.linkedin.com/in/mohamed-riyaz-886079310/",
+      "image": "/team/club-members/ai-ml/riyaz.jpg",
+      "bio": "Active member of the AI & Machine Learning team contributing to projects, participating in technical learning activities, and collaborating with the team to explore and build intelligent solutions."
+    },
+
+    {
+      "id": 109,
+      "name": "Nirmal Kumar B",
+      "role": "Member of AI&ML",
+      "department" : "AI & ML",
+      "branch": "BE CSE",
+      "year": "1st Year",
+      "registerNo": "145110556",
+      "linkedin": "https://www.linkedin.com/in/nirmal-kumar-b-bagg",
+      "image": "/team/club-members/ai-ml/nirmalkuma.jpeg",
+      "bio": "Active member of the AI & Machine Learning team contributing to projects, participating in technical learning activities, and collaborating with the team to explore and build intelligent solutions."
+    },
+
+    {
+      "id": 110,
+      "name": "Abdul Jaleel A M",
+      "role": "Member of AI&ML",
+      "department" : "AI & ML",
+      "branch": "BE CSE",
+      "year": "2nd Year",
+      "registerNo": "44110924",
+      "linkedin": "https://www.linkedin.com/in/abdul-jaleel-am/",
+      "image": "/team/club-members/ai-ml/abduljaleel.jpeg",
+      "bio": "Active member of the AI & Machine Learning team contributing to projects, participating in technical learning activities, and collaborating with the team to explore and build intelligent solutions."
+    },
+
+    {
+      "id": 111,
+      "name": "Nimmanagoti Tharun Kumar",
+      "role": "Member of AI&ML",
+      "department" : "AI & ML",
+      "branch": "BE CSE",
+      "year": "2nd Year",
+      "registerNo": "44111068",
+      "linkedin": "https://www.linkedin.com/in/nimmanagotitharunkumar/",
+      "image": "/team/club-members/ai-ml/tharunkumar.png",
+      "bio": "Active member of the AI & Machine Learning team contributing to projects, participating in technical learning activities, and collaborating with the team to explore and build intelligent solutions."
+    },
+
+    {
+      "id": 112,
+      "name": "Prisha",
+      "role": "Member of AI&ML",
+      "department" : "AI & ML",
+      "branch": "BE CSE AI-ML",
+      "year": "2nd Year",
+      "registerNo": "44611079",
+      "linkedin": "https://www.linkedin.com/in/karanam-poorna-prisha/",
+      "image": "/team/club-members/ai-ml/prisha.jpg",
+      "bio": "Active member of the AI & Machine Learning team contributing to projects, participating in technical learning activities, and collaborating with the team to explore and build intelligent solutions."
+    },
+
+    {
+      "id": 113,
+      "name": "Deepak BO",
+      "role": "Member of AI&ML",
+      "department" : "AI & ML",
+      "branch": "BE CSE",
+      "year": "3rd Year",
+      "registerNo": "43110124",
+      "linkedin": "https://www.linkedin.com/in/dipak05/",
+      "image": "/team/club-members/ai-ml/deepak.jpg",
+      "bio": "Active member of the AI & Machine Learning team contributing to projects, participating in technical learning activities, and collaborating with the team to explore and build intelligent solutions."
+    }
+  ],
+
+  "webAppTeam": [
+
+{
+"id":201,
+"name":"Adhik Ighthishaam",
+"role":"Lead of Web & App Dev",
+"department":"Web & App Dev",
+"branch":"B.TECH IT",
+"year":"3rd Year",
+"registerNo":"43120106",
+"image":"/team/club-members/web-app/adhik.jpeg",
+"linkedin":"https://www.linkedin.com/in/adhik-igthishaam",
+"bio":"Leading the Web & App Development team, guiding members in building modern websites and applications while organizing development projects and technical learning activities within the Microsoft Club."
+},
+
+{
+"id":202,
+"name":"Archita S Nair",
+"role":"Co-Lead of Web & App Dev",
+"department":"Web & App Dev",
+"branch":"BE CSE",
+"year":"2nd Year",
+"registerNo":"44111034",
+"image":"/team/club-members/web-app/archita.jpg",
+"linkedin":"https://www.linkedin.com/in/archita-nair-b12905311/",
+"bio":"Supporting the Web & App Development team by coordinating members, assisting in technical projects, and helping organize activities that promote collaborative development and innovation."
+},
+
+{
+"id":203,
+"name":"Naidu Deepika",
+"role":"Member of Web & App Dev",
+"department":"Web & App Dev",
+"branch":"BE CSE DS",
+"year":"2nd Year",
+"registerNo":"44733055",
+"image":"/team/club-members/web-app/deepika.jpeg",
+"linkedin":"https://www.linkedin.com/in/naidu-deepika-8794b5324",
+"bio":"Active member of the Web & App Development team contributing to development projects, learning modern technologies, and collaborating with the team to build innovative digital solutions."
+},
+
+{
+"id":204,
+"name":"Vishnuputhran R",
+"role":"Member of Web & App Dev",
+"department":"Web & App Dev",
+"branch":"BE CSE",
+"year":"2nd Year",
+"registerNo":"44110902",
+"image":"/team/club-members/web-app/vishnuputhran.jpg",
+"linkedin":"https://www.linkedin.com/in/vishnuputhran-r",
+"bio":"Active member of the Web & App Development team contributing to development projects, learning modern technologies, and collaborating with the team to build innovative digital solutions."
+},
+
+{
+"id":205,
+"name":"Thilak Raj V",
+"role":"Member of Web & App Dev",
+"department":"Web & App Dev",
+"branch":"BE CSE",
+"year":"2nd Year",
+"registerNo":"44111264",
+"image":"/team/club-members/web-app/thilakraj.jpeg",
+"linkedin":"https://www.linkedin.com/in/thilak-raj-v-140354329",
+"bio":"Active member of the Web & App Development team contributing to development projects, learning modern technologies, and collaborating with the team to build innovative digital solutions."
+},
+
+{
+"id":206,
+"name":"Barath S",
+"role":"Member of Web & App Dev",
+"department":"Web & App Dev",
+"branch":"B.E ECE",
+"year":"1st Year",
+"registerNo":"145130067",
+"image":"/team/club-members/web-app/barath.jpg",
+"linkedin":"https://www.linkedin.com/in/barath-undefined-6229713a9",
+"bio":"Active member of the Web & App Development team contributing to development projects, learning modern technologies, and collaborating with the team to build innovative digital solutions."
+},
+
+{
+"id":207,
+"name":"Harshini M",
+"role":"Member of Web & App Dev",
+"department":"Web & App Dev",
+"branch":"B.TECH IT",
+"year":"2nd Year",
+"registerNo":"44120039",
+"image":"/team/club-members/web-app/harshini.jpeg",
+"linkedin":"https://www.linkedin.com/in/harshini-m-0a2471327",
+"bio":"Active member of the Web & App Development team contributing to development projects, learning modern technologies, and collaborating with the team to build innovative digital solutions."
+},
+
+{
+"id":208,
+"name":"B Rakshanaa",
+"role":"Member of Web & App Dev",
+"department":"Web & App Dev",
+"branch":"B.E ECE",
+"year":"1st Year",
+"registerNo":"145130116",
+"image":"/team/club-members/web-app/rakshanaa.jpg",
+"linkedin":"https://www.linkedin.com/in/rakshanaa-b-47b964361",
+"bio":"Active member of the Web & App Development team contributing to development projects, learning modern technologies, and collaborating with the team to build innovative digital solutions."
+},
+
+{
+"id":209,
+"name":"Satheeswaran B",
+"role":"Member of Web & App Dev",
+"department":"Web & App Dev",
+"branch":"B.E CSE",
+"year":"2nd Year",
+"registerNo":"44111361",
+"image":"/team/club-members/web-app/satheeswaran.jpg",
+"linkedin":"https://www.linkedin.com/in/satheeswaran-b-31008733b",
+"bio":"Active member of the Web & App Development team contributing to development projects, learning modern technologies, and collaborating with the team to build innovative digital solutions."
+},
+
+{
+"id":210,
+"name":"Daris Rebekha S",
+"role":"Member of Web & App Dev",
+"department":"Web & App Dev",
+"branch":"B.E ECE",
+"year":"1st Year",
+"registerNo":"145130086",
+"image":"/team/club-members/web-app/rebekha.png",
+"linkedin":"https://www.linkedin.com/in/daris-rebekha-448081395",
+"bio":"Active member of the Web & App Development team contributing to development projects, learning modern technologies, and collaborating with the team to build innovative digital solutions."
+}
+
+],
+"productionTeam": [
+
+{
+"id":301,
+"name":"Avinash Rajeev",
+"role":"Member of Production & Media",
+"department":"Production & Media",
+"branch":"BE CSE",
+"year":"3rd Year",
+"registerNo":"43111532",
+"image":"/team/club-members/production-media/avinash.jpg",
+"linkedin":"https://www.linkedin.com/in/avinashrajeev",
+"bio":"Active member of the Production & Media team responsible for supporting event coverage, media production, and creative content creation for the Microsoft Club."
+},
+
+{
+"id":302,
+"name":"Nihitha Juliet",
+"role":"Member of Production & Media",
+"department":"Production & Media",
+"branch":"BE CSBS",
+"year":"1st Year",
+"registerNo":"145492013",
+"image":"/team/club-members/production-media/nihitha.jpeg",
+"linkedin":"https://www.linkedin.com/in/nihitha-juliet-bennitta-482296380",
+"bio":"Active member of the Production & Media team responsible for supporting event coverage, media production, and creative content creation for the Microsoft Club."
+},
+
+{
+"id":303,
+"name":"Harsh Pandey",
+"role":"Member of Production & Media",
+"department":"Production & Media",
+"branch":"BE CSE AIML",
+"year":"3rd Year",
+"registerNo":"43611274",
+"image":"/team/club-members/production-media/harsh.jpg",
+"linkedin":"https://www.linkedin.com/in/harshpandey-5a872729b",
+"bio":"Active member of the Production & Media team responsible for supporting event coverage, media production, and creative content creation for the Microsoft Club."
+},
+
+{
+"id":304,
+"name":"Vijai Sharathi T",
+"role":"Member of Production & Media",
+"department":"Production & Media",
+"branch":"BE CSE",
+"year":"2nd Year",
+"registerNo":"44110890",
+"image":"/team/club-members/production-media/vijai.png",
+"linkedin":"",
+"bio":"Active member of the Production & Media team responsible for supporting event coverage, media production, and creative content creation for the Microsoft Club."
+},
+
+{
+"id":305,
+"name":"Keerthana Gopal",
+"role":"Member of Production & Media",
+"department":"Production & Media",
+"branch":"B.Tech IT",
+"year":"3rd Year",
+"registerNo":"43120094",
+"image":"/team/club-members/production-media/keerthana.jpg",
+"linkedin":"https://www.linkedin.com/in/keerthana-gopal",
+"bio":"Active member of the Production & Media team responsible for supporting event coverage, media production, and creative content creation for the Microsoft Club."
+}
+
+],
+"cloudDevopsTeam": [
+
+{
+"id":401,
+"name":"Aslam Shah I",
+"role":"Member of Cloud & DevOps",
+"department":"Cloud & DevOps",
+"branch":"BE ECE",
+"year":"1st Year",
+"registerNo":"145130103",
+"image":"/team/club-members/cloud-devops/aslam.png",
+"linkedin":"",
+"bio":"Active member of the Cloud & DevOps team contributing to infrastructure management, cloud technologies, automation practices, and collaborating with the team to support scalable and efficient system deployments."
+},
+
+{
+"id":402,
+"name":"Agnes Fedora I",
+"role":"Member of Cloud & DevOps",
+"department":"Cloud & DevOps",
+"branch":"BE ECE",
+"year":"1st Year",
+"registerNo":"145130798",
+"image":"/team/club-members/cloud-devops/agnes.jpg",
+"linkedin":"",
+"bio":"Active member of the Cloud & DevOps team contributing to infrastructure management, cloud technologies, automation practices, and collaborating with the team to support scalable and efficient system deployments."
+},
+
+{
+"id":403,
+"name":"Hitesh Khumar V L",
+"role":"Member of Cloud & DevOps",
+"department":"Cloud & DevOps",
+"branch":"BE CSE DS",
+"year":"2nd Year",
+"registerNo":"44733019",
+"image":"/team/club-members/cloud-devops/hitesh.jpg",
+"linkedin":"https://www.linkedin.com/in/hiteshkhumar/",
+"bio":"Active member of the Cloud & DevOps team contributing to infrastructure management, cloud technologies, automation practices, and collaborating with the team to support scalable and efficient system deployments."
+},
+
+{
+"id":404,
+"name":"Sandhiya S",
+"role":"Member of Cloud & DevOps",
+"department":"Cloud & DevOps",
+"branch":"CSE",
+"year":"2nd Year",
+"registerNo":"44110717",
+"image":"/team/club-members/cloud-devops/sandhiya.jpeg",
+"linkedin":"",
+"bio":"Active member of the Cloud & DevOps team contributing to infrastructure management, cloud technologies, automation practices, and collaborating with the team to support scalable and efficient system deployments."
+},
+
+{
+"id":405,
+"name":"Rupasri G",
+"role":"Member of Cloud & DevOps",
+"department":"Cloud & DevOps",
+"branch":"CSE",
+"year":"2nd Year",
+"registerNo":"44111217",
+"image":"/team/club-members/girl.png",
+"linkedin":"https://www.linkedin.com/in/rupasri-g-b66771321",
+"bio":"Active member of the Cloud & DevOps team contributing to infrastructure management, cloud technologies, automation practices, and collaborating with the team to support scalable and efficient system deployments."
+},
+
+{
+"id":406,
+"name":"Srinika Dubey",
+"role":"Member of Cloud & DevOps",
+"department":"Cloud & DevOps",
+"branch":"CSE",
+"year":"2nd Year",
+"registerNo":"44111098",
+"image":"/team/club-members/girl.png",
+"linkedin":"",
+"bio":"Active member of the Cloud & DevOps team contributing to infrastructure management, cloud technologies, automation practices, and collaborating with the team to support scalable and efficient system deployments."
+}
+
+],
+"cybersecurityTeam":[
+
+{
+"id":501,
+"name":"Puneet S",
+"role":"Lead of Cybersecurity",
+"department":"Cybersecurity",
+"branch":"BE CSE",
+"year":"3rd Year",
+"registerNo":"43110695",
+"image":"/team/club-members/man.jpeg",
+"linkedin":"",
+"bio":"Leading the Cybersecurity team by guiding members in security practices, ethical hacking concepts, vulnerability analysis, and helping organize cybersecurity related technical learning activities within the Microsoft Club."
+},
+
+{
+"id":502,
+"name":"Akshay",
+"role":"Member of Cybersecurity",
+"department":"Cybersecurity",
+"branch":"BE CSE CS",
+"year":"2nd Year",
+"registerNo":"44614003",
+"image":"/team/club-members/cybersecurity/akshay.jpeg",
+"linkedin":"https://www.linkedin.com/in/akshay-prabakar-16a9aa327",
+"bio":"Active member of the Cybersecurity team participating in security awareness activities, learning ethical hacking concepts, exploring system vulnerabilities, and collaborating with the team to improve security knowledge and practices."
+},
+
+{
+"id":503,
+"name":"Sriram J",
+"role":"Member of Cybersecurity",
+"department":"Cybersecurity",
+"branch":"BE CSE CS",
+"year":"2nd Year",
+"registerNo":"44614032",
+"image":"/team/club-members/cybersecurity/sriram.jpeg",
+"linkedin":"https://www.linkedin.com/in/sriram-j-4965b8324/",
+"bio":"Active member of the Cybersecurity team participating in security awareness activities, learning ethical hacking concepts, exploring system vulnerabilities, and collaborating with the team to improve security knowledge and practices."
+},
+
+{
+"id":504,
+"name":"Hanshika Singh",
+"role":"Member of Cybersecurity",
+"department":"Cybersecurity",
+"branch":"BE CSE",
+"year":"2nd Year",
+"registerNo":"44110230",
+"image":"/team/club-members/cybersecurity/hanshika.jpg",
+"linkedin":"https://www.linkedin.com/in/hanshika-singh-2a6b8120b",
+"bio":"Active member of the Cybersecurity team participating in security awareness activities, learning ethical hacking concepts, exploring system vulnerabilities, and collaborating with the team to improve security knowledge and practices."
+},
+
+{
+"id":505,
+"name":"Christy Sabitha Jasmine S",
+"role":"Member of Cybersecurity",
+"department":"Cybersecurity",
+"branch":"BE CSE CS",
+"year":"1st Year",
+"registerNo":"145614053",
+"image":"/team/club-members/cybersecurity/christy.jpg",
+"linkedin":"",
+"bio":"Active member of the Cybersecurity team participating in security awareness activities, learning ethical hacking concepts, exploring system vulnerabilities, and collaborating with the team to improve security knowledge and practices."
+},
+
+{
+"id":506,
+"name":"Andril Verona",
+"role":"Member of Cybersecurity",
+"department":"Cybersecurity",
+"branch":"BE CSE CS",
+"year":"1st Year",
+"registerNo":"145614044",
+"image":"/team/club-members/cybersecurity/andril.webp",
+"linkedin":"https://www.linkedin.com/in/andril-verona-b36197380",
+"bio":"Active member of the Cybersecurity team participating in security awareness activities, learning ethical hacking concepts, exploring system vulnerabilities, and collaborating with the team to improve security knowledge and practices."
+}
+
+],
+"dataScienceTeam":[
+
+{
+"id":601,
+"name":"Abhilasha Modak",
+"role":"Lead of Data Science & Analytics",
+"department":"Data Science & Analytics",
+"branch":"BE CSE DS",
+"year":"3rd Year",
+"registerNo":"43733004",
+"image":"/team/club-members/ds-analytics/abhilasha.jpeg",
+"linkedin":"https://www.linkedin.com/in/abhilasha-modak-94383a318",
+"bio":"Leading the Data Science & Analytics team by guiding members in data driven problem solving, analytics techniques, machine learning concepts, and organizing technical activities to strengthen analytical thinking within the Microsoft Club."
+},
+
+{
+"id":602,
+"name":"Aradhana Roshini X",
+"role":"Co-Lead of Data Science & Analytics",
+"department":"Data Science & Analytics",
+"branch":"BE CSE with Data Science",
+"year":"2nd Year",
+"registerNo":"44733006",
+"image":"/team/club-members/ds-analytics/aradhana.jpeg",
+"linkedin":"https://www.linkedin.com/in/aradhana-roshini-x-a5230732a",
+"bio":"Supporting the Data Science & Analytics team in coordinating technical learning sessions, assisting members in data related projects, and helping organize analytics focused activities within the Microsoft Club."
+},
+
+{
+"id":603,
+"name":"G Haripriya",
+"role":"Member of Data Science & Analytics",
+"department":"Data Science & Analytics",
+"branch":"BE CSE AI",
+"year":"1st Year",
+"registerNo":"145731160",
+"image":"/team/club-members/ds-analytics/haripriya.jpeg",
+"linkedin":"https://www.linkedin.com/in/haripriya-g-1372b6380",
+"bio":"Active member of the Data Science & Analytics team participating in data exploration, analytics learning activities, and collaborating with the team to build data driven solutions and analytical projects."
+},
+
+{
+"id":604,
+"name":"M Steve Anderson",
+"role":"Member of Data Science & Analytics",
+"department":"Data Science & Analytics",
+"branch":"B.Tech AI&DS",
+"year":"1st Year",
+"registerNo":"145491081",
+"image":"/team/club-members/ds-analytics/steveanderson.jpg",
+"linkedin":"https://www.linkedin.com/in/m-steve-anderson-a7bb07385",
+"bio":"Active member of the Data Science & Analytics team participating in data exploration, analytics learning activities, and collaborating with the team to build data driven solutions and analytical projects."
+},
+
+{
+"id":605,
+"name":"Pracheetha Ranjith",
+"role":"Member of Data Science & Analytics",
+"department":"Data Science & Analytics",
+"branch":"BE CSE",
+"year":"2nd Year",
+"registerNo":"44111073",
+"image":"/team/club-members/ds-analytics/pracheetha.jpeg",
+"linkedin":"https://www.linkedin.com/in/pracheetha-ranjith-a2689a307",
+"bio":"Active member of the Data Science & Analytics team participating in data exploration, analytics learning activities, and collaborating with the team to build data driven solutions and analytical projects."
+},
+
+{
+"id":606,
+"name":"Yuthish",
+"role":"Member of Data Science & Analytics",
+"department":"Data Science & Analytics",
+"branch":"B.Tech AI&DS",
+"year":"3rd Year",
+"registerNo":"43733084",
+"image":"/team/club-members/ds-analytics/yuthish.jpg",
+"linkedin":"https://www.linkedin.com/in/yuthish-krishnan-b68645213",
+"bio":"Active member of the Data Science & Analytics team participating in data exploration, analytics learning activities, and collaborating with the team to build data driven solutions and analytical projects."
+},
+
+{
+"id":607,
+"name":"Divyanshu",
+"role":"Member of Data Science & Analytics",
+"department":"Data Science & Analytics",
+"branch":"BE ECE",
+"year":"3rd Year",
+"registerNo":"43130099",
+"image":"/team/club-members/ds-analytics/divyanshu.jpg",
+"linkedin":"https://www.linkedin.com/in/dshekhar07",
+"bio":"Active member of the Data Science & Analytics team participating in data exploration, analytics learning activities, and collaborating with the team to build data driven solutions and analytical projects."
+},
+
+{
+"id":608,
+"name":"Mahesh",
+"role":"Member of Data Science & Analytics",
+"department":"Data Science & Analytics",
+"branch":"BE CSE AI",
+"year":"3rd Year",
+"registerNo":"43731092",
+"image":"/team/club-members/ds-analytics/mahesh.jpg",
+"linkedin":"https://www.linkedin.com/in/maheshpatrayudu1254",
+"bio":"Active member of the Data Science & Analytics team participating in data exploration, analytics learning activities, and collaborating with the team to build data driven solutions and analytical projects."
+},
+
+{
+"id":609,
+"name":"Mohammed Nadeem",
+"role":"Member of Data Science & Analytics",
+"department":"Data Science & Analytics",
+"branch":"BE CSE",
+"year":"2nd Year",
+"registerNo":"44110486",
+"image":"/team/club-members/ds-analytics/nadeem.jpeg",
+"linkedin":"https://www.linkedin.com/in/mohammed-nadeem-n-147289355",
+"bio":"Active member of the Data Science & Analytics team participating in data exploration, analytics learning activities, and collaborating with the team to build data driven solutions and analytical projects."
+}
+
+]
+
+}

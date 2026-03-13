@@ -1,0 +1,40 @@
+/* LIGHT MODE TEAM BACKGROUND */
+
+.light-gradient-bg{
+background: linear-gradient(
+120deg,
+#f3f7ff,
+#b8e6ff,
+#e3d5ff,
+#c7f0ff,
+#ffd8f0
+);
+
+
+background-size:400% 400%;
+animation:gradientMove 12s ease infinite;
+}
+
+/* DARK MODE BACKGROUND */
+
+.dark .light-gradient-bg{
+
+background: linear-gradient(
+120deg,
+#020617,
+#0f172a,
+#111827,
+#1e293b
+);
+
+background-size:400% 400%;
+animation:gradientMove 16s ease infinite;
+}
+
+@keyframes gradientMove{
+
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+
+}

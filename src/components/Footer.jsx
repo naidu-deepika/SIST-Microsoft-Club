@@ -76,7 +76,7 @@ className="flex items-center gap-2 text-[14px] text-inherit no-underline hover:t
 </div>
 
 <div className="flex items-center gap-2 text-[14px]">
-<i className="fa-solid fa-robot text-[#3b82f6]"></i> AI & Machine Learning
+<i className="fa-solid fa-robot text-[#3b82f6]"></i> AI & ML
 </div>
 
 <div className="flex items-center gap-2 text-[14px]">
