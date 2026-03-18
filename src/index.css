@@ -315,9 +315,9 @@ justify-content:center;
 .dark .navbar{
 background:linear-gradient(
 135deg,
-#020617,
-#0f172a,
-#111827
+blue,
+#222a0f,
+hsl(197, 87%, 18%)
 );
 }
 
@@ -350,4 +350,179 @@ border-color:#334155;
 
 .dark .footer-bottom{
 border-color:#334155;
+}
+/*Home*/
+/* CONTAINER */
+
+.home-container{
+min-height:100vh;
+padding-top:120px;
+text-align:center;
+position:relative;
+overflow:hidden;
+}
+
+/* LIGHT MODE */
+
+.light .home-container{
+background:linear-gradient(135deg,#e0f2fe,#ede9fe);
+color:#111827;
+}
+
+/* DARK MODE */
+
+.dark .home-container{
+background:linear-gradient(135deg,#020617,#1e1b4b);
+color:white;
+}
+
+
+/* HERO TEXT */
+
+/* HERO TEXT SECTION */
+
+.hero-text{
+width:100%;
+max-width:1100px;
+margin:auto;
+text-align:left;
+padding-left:80px;
+margin-bottom:40px;
+}
+
+/* WELCOME */
+/* WELCOME TEXT POSITION */
+
+/* WELCOME TEXT SIZE + POSITION */
+
+.welcome-text{
+font-size:100px;
+font-weight:900;
+text-align:left;
+color:lightblue;
+padding-left:80px;
+margin-bottom:10px;
+}
+
+/* LETTER ANIMATION */
+
+.welcome-text span{
+opacity:0;
+display:inline-block;
+transform:translateY(30px);
+animation:letterAppear 0.6s ease forwards;
+}
+
+@keyframes letterAppear{
+
+0%{
+opacity:0;
+transform:translateY(30px);
+}
+
+100%{
+opacity:1;
+transform:translateY(0);
+}
+
+}
+
+/* TO TEXT */
+
+.to-text{
+font-size:36px;
+font-weight:500;
+margin-bottom:5px;
+padding-left:150px;
+}
+
+/* CLUB TITLE */
+
+.club-text{
+font-size:50px;
+font-weight:800;
+text-align:left;
+padding-left:80px;
+color:bisque;
+margin-bottom:10px;
+}
+
+
+/* SCROLLING TEXT */
+.scroll-wrapper{
+width:100%;
+overflow:hidden;
+margin-top:10px;
+margin-bottom:30px;
+}
+
+.scrolling-text{
+white-space:nowrap;
+display:inline-block;
+animation:scroll 14s linear infinite;
+font-size:20px;
+opacity:0.8;
+}
+
+@keyframes scroll{
+0%{transform:translateX(100%)}
+100%{transform:translateX(-100%)}
+}
+
+/* STATS */
+
+.stats{
+display:flex;
+justify-content:center;
+gap:25px;
+margin-top:20px;
+flex-wrap:wrap;
+}
+
+.stat-card{
+padding:20px;
+width:150px;
+border-radius:12px;
+background:rgb(240, 255, 255);
+box-shadow:0 6px 15px rgba(0,0,0,0.08);
+}
+
+.dark .stat-card{
+background:#1f2937;
+color:white;
+}
+
+.stat-card h2{
+font-size:32px;
+margin-bottom:4px;
+}
+
+
+/* FLOATING ICONS */
+
+.floating-icons{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+pointer-events:none;
+}
+
+.icon{
+position:absolute;
+width:80px;
+opacity:0.07;
+animation:float 20s infinite linear;
+}
+
+.icon1{top:15%;left:10%}
+.icon2{top:25%;right:10%}
+.icon3{bottom:20%;left:20%}
+.icon4{bottom:15%;right:20%}
+
+@keyframes float{
+0%{transform:translateY(0)}
+50%{transform:translateY(-40px)}
+100%{transform:translateY(0)}
 }
