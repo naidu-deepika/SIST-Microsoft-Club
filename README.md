@@ -1,7 +1,15 @@
+!<img width="1920" height="1020" alt="Screenshot 2026-03-21 191900" src="https://github.com/user-attachments/assets/4bfc73f7-51b7-4658-8be8-cd70260ad8e4" />
+<img width="1920" height="1020" alt="Screenshot 2026-03-21 191910" src="https://github.com/user-attachments/assets/ad3c8bd8-273b-43cf-85bc-7bbf0e1611c5" />
+<img width="1920" height="1020" alt="Screenshot 2026-03-21 191927" src="https://github.com/user-attachments/assets/4c09b8a3-b7d7-4f33-a65d-9592e04bcfa8" />
+<img width="1920" height="1020" alt="Screenshot 2026-03-21 191943" src="https://github.com/user-attachments/assets/90985173-58cf-4e41-91c9-e79dc5df3b9a" />
+<img width="1920" height="1020" alt="Screenshot 2026-03-21 192020" src="https://github.com/user-attachments/assets/374d297a-0024-426d-902c-238841e2d6c4" />
+[Uploading Screenshot 2026-03-21 191847.png…]()
+
 
 🚀 Project Overview
 Project Name: Microsoft Club Website (Week 3 Project)
-This project is a responsive web application built to showcase the Microsoft Club, including team members, projects, and contact details. It was developed using React with a focus on clean UI, dynamic data handling, and modern design.
+This project is a responsive web application built to showcase the Microsoft Club, including team members, projects, and contact details. It was developed using React with a focus on 
+clean UI, dynamic data handling, and modern design.
 🛠️ Technologies Used
 React (Vite) → for building UI components
 CSS + Tailwind CSS → for styling and responsiveness
